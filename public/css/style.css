@@ -729,6 +729,34 @@ h3.heading:after,h2.heading:after {
     letter-spacing: 0.5px;
     margin-top: 2em;
 }
+input#search {
+    background: #fff;
+    box-shadow: none !important;
+    padding: 12px 15px;
+    color: #777;
+    font-size: 14px;
+    width: 80% !important;
+    border: 1px solid #777;
+    letter-spacing: 1px;
+    outline: none;
+}
+.blog-grids button.btn {
+    background: #f85a40;
+    color: #fff;
+    font-size: 14px;
+    width: 20% !important;
+    letter-spacing: 1px;
+    padding: 12px;
+    display: inline-block;
+	border:none;
+    outline: none;
+	cursor: pointer;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
 .blog-img1 img,.blog-img2 img {
     position: relative;
 }
@@ -2134,7 +2162,7 @@ a.move-top span{
 	.map iframe {
 		min-height: 300px;
 	}
-	.footer-grids input[type="email"],.footer-grids input[type="submit"] {
+	.footer-grids input[type="email"],.footer-grids input[type="submit"], .blog-grids input[type="search"] {
 		font-size: 14px;
 	}
 	.login-icon a, .login-icon a:hover {

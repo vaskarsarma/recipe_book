@@ -8,6 +8,15 @@ class Layout extends Component {
                 <div className="container py-md-3" >
                     <h2 className="heading text-center mb-sm-5 mb-4">Recipe Blog </h2>
                     <div className="row blog-grids head">
+
+                        <div className="col-lg-12 mb-lg-12">
+                            <form action="#" method="post" className="d-flex">
+                                <input type="text" id="search" name="search" placeholder="Search recipe" required=""  ></input>
+                                <button type="submit" className="btn">Search</button>
+                            </form>
+                        </div>
+                        <div className="col-lg-12 mb-lg-12 mb-4"></div>
+
                         <div className="col-lg-7 mb-lg-5 blog-img1">
                             <img src="images/blog1.jpg" alt="" className="img-fluid" />
                             <a href="single.html">Blog #1</a>

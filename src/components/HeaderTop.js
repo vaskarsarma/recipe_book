@@ -20,11 +20,11 @@ class HeaderTop extends Component {
                             </ul>
                         </div>
                         <div className="col-sm-6 header-right-w3_pvt">
-                            <ul className="d-lg-flex header-w3_pvt justify-content-lg-end">
+                            {/* <ul className="d-lg-flex header-w3_pvt justify-content-lg-end">
                                 <li className="">
                                     <span className=""><span className="fas fa-clock"></span>Mon - Sun : 8:30am to 9:30pm</span>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </div>
                     </div>
                 </div>
