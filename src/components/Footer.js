@@ -22,10 +22,9 @@ export default class Footer extends Component {
                             <div className="col-lg-2 col-sm-6 mb-lg-0 mb-sm-5 mb-4">
                                 <h4 className="mb-4">Quick Links</h4>
                                 <ul>
-                                    <li><a href="#">Order Online</a></li>
-                                    <li className="my-2"><a href="#">Healthy Crispy</a></li>
-                                    <li><a href="#">Support Helpline</a></li>
-                                    <li className="mt-2"><a href="#">Privacy Ploicy</a></li>
+                                    <li className="my-2"><a href="about.html">About Us</a></li>
+                                    <li className="my-2"><a href="services.html">Services</a></li>
+                                    <li className=""><a href="contact.html">Contact Us</a></li>                                     
                                 </ul>
                             </div>
                             <div className="col-lg-4 col-sm-6">

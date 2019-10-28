@@ -17,14 +17,18 @@ class Header extends Component {
                     <ul className="menu mt-2 ml-auto">
                         <li className="active"><a href="index.html">Home</a></li>
                         <li className=""><a href="about.html">About Us</a></li>
-                        {/* <li className=""><a href="services.html">Services</a></li>
-                        <li className=""><a href="gallery.html">Gallery</a></li> */}                        
                         <li className=""><a href="contact.html">Contact Us</a></li> 
                         <li className=""><a href="login.html">Login</a></li>
-                    </ul> 
-                    {/* <div className="login-icon ml-2">
-                        <a className="user" href="#">Login</a>
-                    </div> */}  
+                    </ul>  
+
+                    {/* Post Login */}
+                    {/* <ul className="menu mt-2 ml-auto">
+                        <li className="active"><a href="index.html">Home</a></li>
+                        <li className=""><a href="gallery.html">My Recipe</a></li>                        
+                        <li className=""><a href="contact.html">Approve</a></li>  
+                        <li className=""><a href="logout.html">Logout</a></li>
+                    </ul> */} 
+                    {/* Post Login */}
                 </nav>
                 <div className="clear"></div>
                 {/* <!-- //nav --> */}
